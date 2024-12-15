@@ -17,7 +17,7 @@ def banner():
     print(Fore.CYAN+"\__ \  | |   | (_) ||   / | |\/| |      | _ \|   /| _|  / _ \    ' <  | _| |   / " )
     print(Fore.CYAN+"|___/  |_|    \___/ |_|_\ |_|  |_|      |___/|_|_\|___|/_/ \_\  _|\_\ |___||_|_\\")
     print(Fore.RED + "                     C Y B E R   B L A Z E - I D")
-    print(Fore.YELLOW + "                   A blazing firestorm of power!")
+    print(Fore.YELLOW + "                    A blazing firestorm of power!")
     print(Style.RESET_ALL)
 
 banner()
