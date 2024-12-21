@@ -4,7 +4,7 @@
 
 </h1>
 
-<h4 align="center">A Tool With Attractive Capabilities. </h4>
+<h4 align="center">Sebuah Alat Dengan Kemampuan Menarik Bernama Storm Breaker.</h4>
 
 <p align="center">
 
@@ -24,46 +24,29 @@
 
 ![demo](.imgs/screen1.jpeg)
 
-### Features:
+### Fitur:
 
-- Obtain Device Information Without Any Permission !
-- Access Location [SMARTPHONES]
-- Access Webcam
-- Access Microphone
+- Akses Lokasi [SMARTPHONES]
+- Akses Kamera
+- Akses Mikrofon
 
 <br>
 
-### Update Log:
+#### Perhatian! :
 
-- Second (latest) Update on December , 2024 .
-- The overall structure of the tool is programmed from the beginning and is available as a web panel (in previous versions, the tool was available in the command line).
-- Previous version's bugs fixed !
-- Auto-download Ngrok Added !
-- The templates have been optimized !
-- Logs can be downloaded (NEW) !
-- Clear log Added !
-- It can be uploaded on a personal host (you won't have the Ngork problems anymore)
-- You can start and stop the listener anytime ! (At will)
-- Beautified user interface (NEW) !
-
-> We have deleted Ngrok in the new version of Storm breaker and entrusted the user with running and sharing the localhost . So please note that Storm breaker runs a localhost for you and you have to start the Ngrok on your intended port yourself .
+> Versi ini dapat dijalankan baik di localhost maupun domain dan host pribadi Anda. Namun, Anda dapat menggunakannya untuk kedua situasi tersebut. Jika negara Anda telah menangguhkan layanan Ngrok, atau jika negara Anda melarang Ngrok, atau jika target Anda tidak dapat membuka tautan Ngrok (karena alasan seperti: Dia melihat tautan semacam itu mencurigakan, atau jika layanan ini ditangguhkan di negaranya), kami sarankan menggunakan alat ini di host dan domain pribadi Anda.
 > <br>
 
-#### Attention! :
-
-> This version can be run on both local host and your personal domain and host . However , you can use it for both situations. If your country has suspended the Ngrok service, or your country's banned Ngrok, or your victim can't open the Ngrok link (for the reasons such as : He sees such a link as suspicious, Or if this service is suspended in his country) We suggest using the tool on your personal host and domain .
-> <br>
-
-## Default username and password:
+## Username dan Password Default:
 
 - `username` : `admin`
 - `password` : `admin`
-- You can edit the config.php file to change the username and password .
+- Anda dapat mengedit file config.php untuk mengubah username dan password.
   <br>
 
-### Dependencies
+### Dependensi
 
-**`Storm Breaker`** requires following programs to run properly -
+**`Storm Breaker`** membutuhkan program berikut agar dapat berjalan dengan baik -
 
 - `php`
 - `python3`
@@ -73,7 +56,7 @@
 <!-- ![demo](.imgs/Work3.gif) -->
 <br>
 
-### Platforms Tested
+### Platform yang Diuji
 
 - Kali Linux 2022
 - macOS Big Sur / M1
@@ -81,7 +64,7 @@
 - Personal host (direct admin and cPanel)
   <br>
 
-### Installation On Kali Linux
+### Instalasi Pada Kali Linux
 
 ```
 git clone https://github.com/Cyberblaze-id/Storm-Breaker
@@ -93,19 +76,19 @@ sudo python3 st.py
 
 <br>
 
-**`how to run personal host 👇`**
+**`cara menjalankan host pribadi 👇`**
 
-> Zip the contents of the storm-web folder completely and upload it to the public_html path .
+> Zip semua konten folder storm-web secara lengkap dan unggah ke path public_html.
 
-> Note that the tool should not be opened in a path like this > yourdomain.com/st-web
-> Instead , it should be opened purely in the public_html path (i.e. : don't just zip the storm-web folder itself, but manually zip its contents (the index.php file and other belongings should be in the public_html path)
+> Perhatikan bahwa alat ini tidak boleh dibuka di path seperti ini > yourdomain.com/st-web  
+> Sebagai gantinya, alat ini harus dibuka langsung di path public_html (yaitu: jangan hanya zip folder storm-web itu sendiri, tetapi zip manual kontennya (file index.php dan lainnya harus berada di path public_html)).
 
-#### Attention!:
+#### Perhatian!:
 
-> Note that to use this tool on your Localhost , You also need SSL . Because many of the tool's capabilities require SSL .
+> Perhatikan bahwa untuk menggunakan alat ini di localhost Anda, Anda juga memerlukan SSL. Karena banyak fitur alat ini memerlukan SSL.
 
-#### Attention!:
+#### Perhatian!:
 
-> To run ngrok on termux you need to enable your personal hotspot and cellular network.
+> Untuk menjalankan ngrok di termux, Anda perlu mengaktifkan hotspot pribadi dan jaringan seluler Anda.
 
 </p>
